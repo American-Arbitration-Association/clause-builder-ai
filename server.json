@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "org.adr/clause-builder-ai",
+  "description": "Draft, revise, and explain arbitration and mediation clauses through the American Arbitration Association's ClauseBuilder service.",
+  "title": "AAA ClauseBuilder MCP Server",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.adr.org",
+  "repository": {
+    "url": "https://github.com/American-Arbitration-Association/clause-builder-ai",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.adr.org/clause-builder/mcp"
+    }
+  ]
+}

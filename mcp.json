@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "clause-builder": {
+      "type": "streamable-http",
+      "url": "https://mcp.adr.org/clause-builder/mcp"
+    }
+  }
+}

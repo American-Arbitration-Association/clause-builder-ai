@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "clause-builder",
+  "displayName": "AAA ClauseBuilder",
+  "version": "1.0.0",
+  "description": "The American Arbitration Association's® ClauseBuilder tool is designed to assist individuals and organizations develop clear and effective arbitration and mediation agreements.",
+  "author": {
+    "name": "American Arbitration Association",
+    "url": "https://www.adr.org"
+  },
+  "homepage": "https://www.adr.org",
+  "repository": "https://github.com/American-Arbitration-Association/clause-builder-ai",
+  "license": "Apache-2.0",
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills/",
+  "keywords": [
+    "arbitration",
+    "mediation",
+    "adr",
+    "dispute-resolution",
+    "contracts",
+    "legal"
+  ]
+}

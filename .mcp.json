@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "clause-builder": {
+      "type": "http",
+      "url": "https://mcp.adr.org/clause-builder/mcp"
+    }
+  }
+}
