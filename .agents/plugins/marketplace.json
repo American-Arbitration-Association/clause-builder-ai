@@ -1,14 +1,14 @@
 {
-  "name": "personal",
+  "name": "aaa-clause-builder",
   "interface": {
-    "displayName": "Personal"
+    "displayName": "Aaa Clause Builder"
   },
   "plugins": [
     {
       "name": "clause-builder",
       "source": {
         "source": "local",
-        "path": "."
+        "path": "./plugins/clause-builder"
       },
       "policy": {
         "installation": "AVAILABLE",
