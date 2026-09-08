@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "clause-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The American Arbitration Association's® ClauseBuilder tool is designed to assist individuals and organizations develop clear and effective arbitration and mediation agreements.",
   "author": {
     "name": "American Arbitration Association",
