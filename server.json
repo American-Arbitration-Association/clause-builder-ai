@@ -3,7 +3,7 @@
   "name": "org.adr/clause-builder-ai",
   "description": "Draft, revise, and explain arbitration and mediation clauses through the American Arbitration Association's ClauseBuilder service.",
   "title": "AAA ClauseBuilder MCP Server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://www.adr.org",
   "repository": {
     "url": "https://github.com/American-Arbitration-Association/clause-builder-ai",
