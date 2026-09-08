@@ -24,12 +24,12 @@ The repository provides client-native configuration for Claude Code, Agent Plugi
 
 ## Supported packages
 
-| Format           | Configuration                                                                           | Shared components                              |
-| ---------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| Agent Plugins v1 | [`plugin.json`](plugin.json) and [`mcp.json`](mcp.json)                                 | [`skills/`](skills/)                           |
-| Claude Code      | [`.claude-plugin/plugin.json`](.claude-plugin/plugin.json) and [`.mcp.json`](.mcp.json) | [`skills/`](skills/)                           |
-| ChatGPT/Codex    | [`.agents/plugins/marketplace.json`](.agents/plugins/marketplace.json)                  | Root [`.codex-plugin/`](.codex-plugin/) bundle |
-| MCP Registry     | [`server.json`](server.json)                                                            | Hosted-service metadata                        |
+| Format           | Configuration                                                                           | Shared components                                    |
+| ---------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| Agent Plugins v1 | [`plugin.json`](plugin.json) and [`mcp.json`](mcp.json)                                 | [`skills/`](skills/)                                 |
+| Claude Code      | [`.claude-plugin/plugin.json`](.claude-plugin/plugin.json) and [`.mcp.json`](.mcp.json) | [`skills/`](skills/)                                 |
+| ChatGPT/Codex    | [`.agents/plugins/marketplace.json`](.agents/plugins/marketplace.json)                  | [`plugins/clause-builder/`](plugins/clause-builder/) |
+| MCP Registry     | [`server.json`](server.json)                                                            | Hosted-service metadata                              |
 
 `mcp.json` and `.mcp.json` intentionally use different transport vocabulary for their respective clients. Keep their endpoint values aligned.
 
